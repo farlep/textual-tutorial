@@ -20,6 +20,7 @@ class Stopwatch(Static):
 class StopwatchApp(App):
     """An app to manage stopwatches."""
 
+    CSS_PATH = "stopwatch.css"
     BINDINGS = [("d", "toggle_dark", "Toggle dark mode")]
 
     def compose(self) -> ComposeResult:
