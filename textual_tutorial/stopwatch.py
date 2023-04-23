@@ -109,3 +109,6 @@ def main() -> None:
     """Execute the program."""
     app = StopwatchApp()
     app.run()
+
+if __name__=="__main__":
+    main()
